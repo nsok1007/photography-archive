@@ -20,6 +20,11 @@
 				ga('send', 'pageview');
 			</script>
 			<script async src='https://www.google-analytics.com/analytics.js'></script>
+			<script>
+    				document.addEventListener("contextmenu", function(e){
+           	 		e.preventDefault();
+       				}, false);
+			</script>
 		{% endif %}
 	</head>
 
@@ -31,7 +36,8 @@
 			</header>
 			{{ content }}
 			<footer>
-				All images © 2011-2023 Nik Sokol and may not be shared, used, or reproduced without permission. | Template by <a href="https://cloudcannon.com/">CloudCannon</a>
+				All images by Nik Sokol ©2011-2024 NSOK DESIGNS| Template by <a href="https://cloudcannon.com/">CloudCannon</a>
+				<a href="user-notice.html">User Notice</a>
 			</footer>
 		</div>
 	</body>
